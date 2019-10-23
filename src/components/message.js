@@ -1,12 +1,14 @@
 import React from 'react';
 import Title from './title';
+import Form from './form';
 
 class Message extends React.Component {
   constructor(props) {
     super(props) 
     this.state = {
       words: "These words belong to message component",
-      text: { Title }
+      text: { Title },
+      do: { action }
     }
   }
 
