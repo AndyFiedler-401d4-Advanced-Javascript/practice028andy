@@ -9,8 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <Message
-      text = "This is my amazing app"
-      />
+        text = "This is my amazing app"
+        title = "This is my title"
+        />
     );
   }
 }

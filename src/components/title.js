@@ -2,7 +2,12 @@ import React from 'react';
 
 class Title extends React.Component {
   render() {
-    return null;
+    console.log(this.props);
+    return (
+      <>
+      <h1>{ this.props.text }</h1>
+      </>
+    )
   }
 }
 
